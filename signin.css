@@ -1,0 +1,130 @@
+body{
+    background-color: #e10bac;
+}
+.two{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+
+width: 400px;
+height: 500px;
+border: 3px solid white; 
+box-shadow:4px 4px  rgb(24, 24, 24);
+border-radius: 30px;
+
+}
+.two button{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    border: 3px solid white; 
+    border-radius: 5px;
+    color: #666;
+    height: 50px;
+    width:100px;
+    background-color:white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: 4px 4px  rgb(24, 24, 24);
+    cursor: pointer;
+    
+}
+.signup{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: inline;
+    text-shadow:4.2px 1px black;
+    font-size: 30px;
+    position: absolute;
+    left: 32%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    
+
+}
+
+.signin{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow:4.2px 1px black;
+    font-size: 30px;
+    display: inline;
+    position: absolute;
+    left:69%;
+top: 10%;
+transform: translate(-50%,-50%);
+    
+}
+#email{
+    border: none;
+    border-width: 0;
+    background: none;
+
+    border-bottom: 2px solid white;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);}
+#password{
+    border: none;
+    border-width: 0;
+    background: none;
+
+    border-bottom: 2px solid white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);}
+
+#username{
+        border: none;
+        border-width: 0;
+        background: none;
+    
+        border-bottom: 2px solid white;
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%,-50%);}
+::placeholder {
+
+    color: white;
+    font-size: 15px;
+}
+.password{
+    text-decoration: none;
+    
+}
+.two button:hover{
+    background-color: #e10bac;
+    color: white;
+    
+    
+    
+}
+.password{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    position: absolute;
+    left: 48%;
+    top: 85%;
+    
+    transform: translate(-50%,-50%);
+    
+}
+.link2{
+    color: white;
+    text-decoration: none;
+    width: 100px;
+}
+.link1{
+    color: white;
+    text-decoration: none;
+
+}
+
